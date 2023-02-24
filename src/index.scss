@@ -23,6 +23,11 @@ a {
   color: var(--bs-dark);
 }
 
+button,
+input {
+  font-family: var(--font);
+}
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
