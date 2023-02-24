@@ -31,7 +31,6 @@ function Favorites (){
                 <thead>
                     <tr>
                     <th>Produto</th>
-                    <th>Categoria</th>
                     <th>Preço</th>
                     <th></th>
                     </tr>
@@ -41,8 +40,7 @@ function Favorites (){
                     {products.map((product)=>{
                         return(
                         <tr key={product.id}>
-                            <td data-label='Produto'>{product.title}</td>
-                            <td data-label='Categoria'>{product.category}</td>
+                            <td data-label='Produto'>{product.title}</td>   
                             <td data-label='Preço'>R$ {product.price}</td>
                             <td>
                                 <Link to={`/product/${product.id}`}>Ver detalhes</Link>
