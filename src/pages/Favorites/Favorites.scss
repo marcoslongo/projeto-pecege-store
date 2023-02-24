@@ -16,12 +16,14 @@ table {
         padding: 30px;
         margin-bottom: 30px;
         
+
         td {
           display: block;
           font-weight: 500;
           padding: 5px;
           position: relative;
           text-align: right;
+          border: 1px solid #000;
           
           button {
             background-color: #CD0028;
@@ -35,6 +37,11 @@ table {
             transition: .2s;
             &:hover {
               background-color: #000;
+            }
+          }
+          a {
+            &:hover {
+              text-decoration: underline;
             }
           }
           
@@ -63,6 +70,7 @@ table {
         
         th {
           padding: 10px;
+          border: 1px solid #000;
         }
       }
       
