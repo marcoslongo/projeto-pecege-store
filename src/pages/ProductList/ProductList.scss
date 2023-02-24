@@ -1,0 +1,107 @@
+.box-search {
+    background-color: #000;
+    padding: 2rem;    
+    margin-bottom: 2rem;
+    .row {
+        align-items: center;
+        justify-content: center;
+    }
+    input {
+        padding: 10px;
+        margin-right: 1rem;
+        width: 30%;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    button {
+        padding: 12px;
+        background-color: #CD0028;
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: "Raleway",sans-serif;
+        font-weight: 600;
+        transition: .2s;
+        &:hover {
+            background-color: #fff;
+            color: #CD0028;
+        }
+    }
+}
+.grid-products {
+    align-items: center;
+}
+.access-product {
+    display: block;
+    transition: .2s;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 11px 30px 0px rgb(168 163 168 / 49%);
+        border: 1px solid rgb(221, 216, 221);
+    }
+}
+
+.box-products {
+    display: flex;
+    align-items: center;
+    height: 320px;
+    padding: 0 40px;
+    img {
+        display: block;
+        width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+}
+.box-info-product {
+    text-align: center;
+    padding:0 40px;
+    margin-top: 26px;
+    .price {
+        font-weight: 800;
+        color: #CD0028;
+        font-size: 20px;
+    }
+}
+
+
+
+
+$white: #CD0028;
+$off-white: rgba($white, 0.2);
+$spin-duration: 1s;
+$pulse-duration: 750ms;
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {	
+  50% { 
+    background: #CD0028;
+  } 
+}
+
+.box-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+.loading {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: .25rem solid $off-white;
+    border-top-color: #CD0028;
+    animation: spin $spin-duration infinite linear;
+}
