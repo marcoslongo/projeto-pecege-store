@@ -88,11 +88,6 @@
 }
 
 
-$white: #CD0028;
-$off-white: rgba($white, 0.2);
-$spin-duration: 1s;
-$pulse-duration: 750ms;
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -118,7 +113,7 @@ $pulse-duration: 750ms;
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    border: .25rem solid $off-white;
+    border: .25rem solid rgba(205, 0, 40, 0.2);
     border-top-color: #CD0028;
-    animation: spin $spin-duration infinite linear;
+    animation: spin 1s infinite linear;
 }
