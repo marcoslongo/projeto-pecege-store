@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+### Avaliação técnica Pecege para DEV front end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Para iniciar o projeto basta baixar o projeto e rodá-lo com os seguintes comandos
+npm install
+npm start
 
-## Available Scripts
+### Solicitação
 
-In the project directory, you can run:
+Teste técnico Front-end
 
-### `npm start`
+Olá,
+Primeiramente muito obrigado por desejar fazer parte do nosso time e por se
+disponibilizar a participar do processo de seleção. Para que possamos avaliar
+melhor a parte técnica temos como parte do processo um teste técnico.
+O objetivo aqui é avaliar habilidades técnicas como: compreensão do desenvolvedor
+sobre HTML, CSS e JavaScript, capacidade de solucionar problemas, capacidade
+de trabalhar com tecnologias específicas, boas práticas de desenvolvimento,
+qualidade e organização do código.
+Frameworks atuais são muito bem vindos, porém não é obrigatório utilizar um (só
+não esqueça de incluir um tutorial de como subir sua aplicação).
+Quanto ao visual, deixamos livre, apesar do teste ser para front-end, é importante
+que você tenha coerência nas escolhas, e pense na usabilidade, isso também será
+avaliado.
+Formas de envio: Suba os arquivos no seu repositório Git e crie uma página para
+que possa ser visualizado.
+História de usuário:
+Título: Filtrar e ordenar produtos na página de listagem
+Como um usuário do site, eu quero poder filtrar e ordenar os produtos na página de
+listagem, para que eu possa encontrar os produtos que estou procurando de forma
+mais rápida e eficiente.
+Cenários:
+1. Como um usuário, eu quero poder filtrar os produtos por preço, para que eu
+possa ver apenas os produtos que estão dentro do meu orçamento.
+2. Como um usuário, eu quero poder ordenar os produtos por preço, para que eu
+possa ver os produtos com preços mais baixos primeiro.
+3. Como um usuário, eu quero poder buscar por produtos pelo nome, para que eu
+possa encontrar o produto que estou procurando rapidamente.
+4. Como um usuário, eu quero que a página de listagem de produtos seja
+responsiva e se ajuste a diferentes tamanhos de tela, para que eu possa usar o
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Teste técnico Front-end 2
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+site com facilidade em diferentes dispositivos, como computadores, tablets e
+smartphones.
+Aceitação:
+Quando eu clico no botão de filtrar por preço, a página deve atualizar para
+mostrar apenas os produtos que estão dentro do intervalo de preço que eu
+especifiquei.
+Quando eu clico no botão de ordenar por preço, a página deve atualizar para
+mostrar os produtos em ordem crescente ou decrescente de preço, dependendo
+da minha escolha.
+Quando eu digito um termo de pesquisa na caixa de busca e clico no botão de
+buscar, a página deve atualizar para mostrar apenas os produtos cujos nomes
+correspondem ao termo de pesquisa.
+A página de listagem de produtos deve exibir corretamente em diferentes
+tamanhos de tela, incluindo dispositivos móveis, sem comprometer a
+usabilidade ou funcionalidade.
+As funcionalidades de filtragem e ordenação devem ser acessíveis e funcionar
+corretamente em diferentes tamanhos de tela.
