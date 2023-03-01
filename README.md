@@ -37,9 +37,6 @@ possa ver os produtos com preços mais baixos primeiro.
 possa encontrar o produto que estou procurando rapidamente.
 4. Como um usuário, eu quero que a página de listagem de produtos seja
 responsiva e se ajuste a diferentes tamanhos de tela, para que eu possa usar o
-
-Teste técnico Front-end 2
-
 site com facilidade em diferentes dispositivos, como computadores, tablets e
 smartphones.
 Aceitação:
